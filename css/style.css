@@ -1,0 +1,103 @@
+body {
+  background-color: #967777;
+  font-family: sans-serif;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+}
+h2, h3 {
+right: 5.04%;
+top: -28%;
+bottom: -25.6%;
+}
+
+
+h1,h2 {
+/*
+  right: 5.04%;
+  top: -28%;
+  bottom: -25.6%;
+  */
+font-family: Nimbus Sans Extd, SF Pro, sans-serif;
+font-size: 40px;
+line-height: 48px;
+color: rgba(220, 209, 209, 0.98);
+}
+
+h1{
+  bottom: 25.6%;
+  margin: -150px;
+}
+
+h3 {
+  font-size: 30px;
+  font-family: SF Pro, sans-serif;
+}
+
+.container {
+    margin: 100px  auto;
+    width: 400px;
+}
+
+.content{
+    display: inline-block;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+
+
+/*margin is measured as it is for best visual performance */
+nav {
+  background-color: #000;
+    content: url("/images/StatusBar.png");
+  margin: auto;
+  height: auto;
+  position: fixed;
+  max-width: 100%;
+}
+
+/*arrow */
+.bus-line {
+  border-bottom: 1px solid #666;
+  float: center;
+  margin: 3%;
+  line-height: 66px;
+  background-color: #444;
+  width: 100%;
+  background: #4D4548;
+
+}
+
+.modal-backdrop{
+  border-bottom: 0px solid #666;
+  float: left;
+  content: url("../images/map.png");
+  position: absolute;
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
+/*Box Container*/
+.roundbox {
+  background-color: #4D4548;
+  top: 62%;
+  padding: 20px;
+  margin: 1px;
+  height: auto;
+  position: fixed;
+  width: 385px;
+  border-radius: 10px;
+}
+/*
+.modal{
+      background: linear-gradient(180deg, #2F272A 100%, rgba(255, 255, 255, 0) 100%);
+      mix-blend-mode: soft-light;
+      opacity: 100%;
+}
