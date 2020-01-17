@@ -1,39 +1,40 @@
 body {
   background-color: #967777;
-  font-family: sans-serif;
+  font-family: SF Pro, sans-serif;
+  color: rgba(220, 209, 209);
 }
 
 *, *:before, *:after {
   box-sizing: border-box;
 }
 
-}
-h2, h3 {
-right: 5.04%;
-top: -28%;
-bottom: -25.6%;
-}
-
-
+/*bus line title, Airbus 9*/
 h1,h2 {
-/*
-  right: 5.04%;
-  top: -28%;
-  bottom: -25.6%;
-  */
 font-family: Nimbus Sans Extd, SF Pro, sans-serif;
-font-size: 40px;
+font-size: 50px;
+padding: 5%;
 line-height: 48px;
-color: rgba(220, 209, 209, 0.98);
+color: rgba(220, 209, 209);
+position: relative;
+padding-top: 350px;
 }
 
-h1{
-  bottom: 25.6%;
-  margin: -150px;
-}
-
-h3 {
+h2{
+  padding-top: 35px;
   font-size: 30px;
+}
+.arrivaltime{
+  font-family: Nimbus Sans Extd, SF Pro, sans-serif;
+  padding: 5%;
+  text-align: right;
+  margin-top: -200px;
+  margin-left: 180px;
+  overflow: hidden;
+  color: rgba(220, 209, 209);
+  position: fixed;
+}
+h3 {
+  font-size: 22px;
   font-family: SF Pro, sans-serif;
 }
 
@@ -48,28 +49,18 @@ h3 {
     font-size: 18px;
 }
 
-
-
-/*margin is measured as it is for best visual performance */
-nav {
-  background-color: #000;
-    content: url("/images/StatusBar.png");
-  margin: auto;
-  height: auto;
-  position: fixed;
-  max-width: 100%;
+.statusbar{
+    content: url("../images/statusbar.png");
 }
 
-/*arrow */
+
 .bus-line {
   border-bottom: 1px solid #666;
-  float: center;
-  margin: 3%;
+  margin: 2%;
   line-height: 66px;
   background-color: #444;
   width: 100%;
-  background: #4D4548;
-
+    background: #4D4548;
 }
 
 .modal-backdrop{
@@ -82,22 +73,71 @@ nav {
 }
 
 
+.avatar-good {
+  float: left;
+  background-color: #48D893;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 50%; /* the magic circle */
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  text-align: center;
+  color: white;
+  font-size: 17px
+}
 
+.avatar-hinder{
+  float: left;
+  background-color: #CFAE25;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 50%; /* the magic circle */
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  text-align: center;
+  color: white;
+  font-size: 17px
+}
+
+.avatar-hazard{
+  float: left;
+  background-color: #FF4A00;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 50%; /* the magic circle */
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  text-align: center;
+  color: white;
+  font-size: 17px
+}
+
+
+.busname {
+  margin-top: -50px;
+  margin: 4px;
+  padding-left: 12px;
+  overflow: hidden;
+}
+
+.comment {
+  text-align: right;
+  margin-top: -35px;
+  margin-left: 280px;
+  overflow: hidden;
+}
 
 /*Box Container*/
 .roundbox {
   background-color: #4D4548;
   top: 62%;
   padding: 20px;
-  margin: 1px;
+  margin: 15px;
   height: auto;
   position: fixed;
   width: 385px;
   border-radius: 10px;
-}
-/*
-.modal{
-      background: linear-gradient(180deg, #2F272A 100%, rgba(255, 255, 255, 0) 100%);
-      mix-blend-mode: soft-light;
-      opacity: 100%;
 }
