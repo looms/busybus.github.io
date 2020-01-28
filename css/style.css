@@ -77,11 +77,10 @@ ul{
 .map{
   border-bottom: 1px solid #666;
   content: url("../images/map.png");
-  position: fixed;
   background-repeat: no-repeat;
   background-color: red;
   width: 375px;
-  height: auto;
+  height: 595px;
   float: left;                  /* Add this */
   background-color: #F09A9D;
   margin: 0 ;
