@@ -76,14 +76,14 @@ ul{
 
 .map{
   border-bottom: 1px solid #666;
-  content: url("images/map.png");
+  content: url("/images/map.png");
   background-repeat: no-repeat;
   background-color: red;
   width: 375px;
-  height: 595px;
+  height: auto;
   float: left;                  /* Add this */
   background-color: #F09A9D;
-  margin: 0 ;
+  margin: 0px;
 }
 
 .locationtop {
@@ -151,9 +151,9 @@ ul{
 .arrow{
   padding-left: 10px;
 }
+
 .place{
   margin-left: 75px;
-    margin-top: 75px;
+  margin-top: 75px;
   font-size: 18px;
-
 }
