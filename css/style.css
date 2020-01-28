@@ -17,7 +17,6 @@ nav {
   width: 375px;
   position: 0 auto ;
   margin-top: -45px;
-  position: sticky;
 }
 
 ul{
@@ -77,9 +76,8 @@ ul{
 
 .map{
   border-bottom: 1px solid #666;
-  margin-top: 00%;
   content: url("../images/map.png");
-  position: inherit;
+  position: fixed;
   background-repeat: no-repeat;
   background-color: red;
   width: 375px;
