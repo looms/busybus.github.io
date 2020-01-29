@@ -12,7 +12,7 @@ body {
 
 
 nav {
-  content: url("./images/StatusBar.png");
+  content: url("/images/statusbar.png");
   position: fixed;
   width: 375px;
   position: 0 auto ;
@@ -76,7 +76,7 @@ ul{
 
 .map{
   border-bottom: 1px solid #666;
-  content: url("images/Map.png");
+  content: url("images/map.png");
   background-repeat: no-repeat;
   width: 375px;
   height: auto;
