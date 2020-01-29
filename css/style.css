@@ -82,7 +82,7 @@ ul{
   background-size: cover;
     background-position: center;
   background-repeat: no-repeat;
-  width: auto;
+  width: 375px;
   height: auto;
   float: left;                  /* Add this */
   background-color: #F09A9D;
