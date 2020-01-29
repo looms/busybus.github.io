@@ -76,7 +76,7 @@ ul{
 
 .map{
   border-bottom: 1px solid #666;
-  content: url("./images/map.png");
+  content: url("/images/map.png");
   background-repeat: no-repeat;
   width: 375px;
   height: auto;
