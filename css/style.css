@@ -12,11 +12,6 @@ body {
 
 
 nav {
-  background-image: url("../images/stausbar.png");
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  background-repeat: no-repeat;
   height: auto;
   float: left;
   position: fixed;
@@ -87,7 +82,7 @@ ul{
   background-position: center;
   height: 100vh;
   background-repeat: no-repeat;
-  width: auto;
+  width: 375px;
   height: auto;
   float: left;
   background-color: #F09A9D;
