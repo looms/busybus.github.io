@@ -55,7 +55,7 @@ ul{
   position: absolute;
   padding: 0%;
   font-size: 50px;
-  margin-top: 20%;
+  margin-top: 15%;
   margin-left: -19%;
 }
 
@@ -87,7 +87,7 @@ ul{
   background-position: center;
   height: 100vh;
   background-repeat: no-repeat;
-  width: 375px;
+  width: auto;
   height: auto;
   float: left;
   background-color: #F09A9D;
