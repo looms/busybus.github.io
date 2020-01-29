@@ -50,8 +50,8 @@ ul{
   position: absolute;
   padding: 0%;
   font-size: 50px;
-  margin-top: 35%;
-  margin-left: -18%;
+  margin-top: 25%;
+  margin-left: -28%;
 }
 
 .arrivaltime{
@@ -59,7 +59,7 @@ ul{
   color: rgba(220, 209, 209);
   position: absolute;
   font-size: 40px;
-  margin-top: 35%;
+  margin-top: 25%;
   margin-left: -8%;
 }
 
