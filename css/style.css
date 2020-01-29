@@ -78,9 +78,10 @@ ul{
   border-bottom: 1px solid #666;
 
   background-image: url("../images/map.png");
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  width: 375px;
+  width: 300px;
   height: auto;
   float: left;                  /* Add this */
   background-color: #F09A9D;
