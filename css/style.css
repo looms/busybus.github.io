@@ -80,10 +80,9 @@ ul{
   background-image: url("../images/map.png");
   background-size: cover;
   background-position: center;
-  height: 100vh;
   background-repeat: no-repeat;
   width: 375px;
-  height: auto;
+  height: 450px;
   float: left;
   background-color: #F09A9D;
   margin: 0px;
