@@ -1,2 +1,2 @@
-# css-exercise-four
-Exercise focused on the usage of media queries
+# BusyBus
+Remade the entirety of the assignment from scratch with Becky Olsen's assistance in learning how to!
